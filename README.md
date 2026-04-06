@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: reddit-reader
 description: Read Reddit posts, comments, and subreddits via the JSON API. No API key needed. Use when asked to read a Reddit thread, browse a subreddit, search Reddit for topics, or gather community opinions. Works by appending .json to Reddit URLs.
@@ -70,3 +74,13 @@ Reddit may block some VPS IP ranges. If requests fail with 403/429:
 - Add a delay between requests (2-3 seconds)
 - Use `web_fetch` tool as fallback
 - Try via Jina Reader: `curl -s "https://r.jina.ai/https://reddit.com/r/sub"`
+
+## Installation
+
+```bash
+cp -r reddit-reader/ ~/.openclaw/workspace/skills/reddit-reader/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
